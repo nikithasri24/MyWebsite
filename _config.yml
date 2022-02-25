@@ -1,2 +1,21 @@
+#Global settings 
+#This page doesn't reload automatically('bundle exec jekyll serve'), restart the process if you edit this file.
+
+#Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 description: "This project is to learn to build project websites in GitHub with GitHub Pages."
 email: "nikitha.lisi@gmail.com"
+title: "Sri Nikitha Kalidindi"
+github_username: "nikithasri24"
+linkedin_username: "srinikitha"
+last_updated: Feb 25th 2022
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://nikithasri24.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+theme: minima
+
+#References:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
