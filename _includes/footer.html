@@ -6,20 +6,22 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li>[Checking]<a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         {%- include social.html -%}
+        Checking social space
       </div>
 
-      {%- if site.description -%}
+      Removed Site description
+<!--       {%- if site.description -%}
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
-      {%- endif -%}
+      {%- endif -%} -->
 
       <div class="footer-col footer-col-3">
         <p><preformatted>Last Updated on </preformatted><b>{{- site.last_updated | escape -}}</b></p>
